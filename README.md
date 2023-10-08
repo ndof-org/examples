@@ -36,7 +36,7 @@ Newline Delimited Objects format is typically used with JSON, due to its relativ
 It has many advantages including the ability to stream very large amounts of data, to consume data incrementally, and it can be processed by line even though the complete document is not available.
 
 
-### JSON Lines File
+### JSON Lines File: [json.jsonl](json.jsonl)
 A single line in JSON Lines format is a valid JSON object, surrounded by curly brackets {}.
 ```jsonl
 {"name": "John", "age": 30, "city": "New York"}
@@ -45,7 +45,7 @@ A single line in JSON Lines format is a valid JSON object, surrounded by curly b
 ```
 
 
-### XML Lines File
+### XML Lines File: [data.xml](data.xml)
 A single line in an XML Lines format is a valid XML object, surrounded by opening and closing tags.
 However, there's no standard convention for XML lines since XML was designed to be used as a nested and not a line-based format.
 So, using XML in this way is not as commonly seen as using JSON Lines. 
@@ -57,14 +57,14 @@ So, using XML in this way is not as commonly seen as using JSON Lines.
 ```
 
 
-### HTML Lines File 
+### HTML Lines File: [data.html](data.html)
 ```html
 <div><h1>John</h1><p>Age: 30</p><p>City: New York</p></div>
 <div><h1>Jane</h1><p>Age: 35</p><p>City: Chicago</p></div>
 <div><h1>Bob</h1><p>Age: 40</p><p>City: Los Angeles</p></div>
 ```
 
-### Example with multi-format data in a single file:
+### Example with multi-format data in a single file: [data.ndof](data.ndof)
 ```json
 {"name": "John", "age": 30, "city": "New York"}
 <Person><name>Jane</name><age>35</age><city>Chicago</city></Person>
@@ -106,3 +106,8 @@ Keep in mind, formats like XML, HTML, or YAML can be written in a single line, b
 
 
 Please note, using XML, HTML (or any other formats that were designed to be multi-line and nested) in single-line delimited objects format is atypical and has lots of potential issues with readability, complexity, and data integrity. For these formats, it's generally better to use their standard multi-line formats.
+
+---
+
++ [edit](https://github.com/ndof-org/examples/edit/main/README.md)
++ [github](https://github.com/ndof-org/examples/)
