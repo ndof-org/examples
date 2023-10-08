@@ -29,7 +29,7 @@ This format is often used for data interchange or storage in web-based applicati
 
 
 
-## Multiple object formats: XML, JSON, XML, ...
+## Multiple object format data: XML, JSON, XML, ...
 
 
 Newline Delimited Objects format is typically used with JSON, due to its relatively simple and compact format that can easily be put into a single line. However, it can also be applied to XML, HTML, and a few other simple text formats, as long as the data structure doesn't require multi-line entries. Here's the example for JSON, XML, and HTML :
@@ -64,7 +64,7 @@ So, using XML in this way is not as commonly seen as using JSON Lines.
 <div><h1>Bob</h1><p>Age: 40</p><p>City: Los Angeles</p></div>
 ```
 
-### Example with mulit- formats in a single file:
+### Example with multi-format data in a single file:
 ```json
 {"name": "John", "age": 30, "city": "New York"}
 <Person><name>Jane</name><age>35</age><city>Chicago</city></Person>
