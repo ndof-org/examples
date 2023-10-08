@@ -36,7 +36,7 @@ Newline Delimited Objects format is typically used with JSON, due to its relativ
 It has many advantages including the ability to stream very large amounts of data, to consume data incrementally, and it can be processed by line even though the complete document is not available.
 
 
-### JSON Lines File: [json.jsonl](json.jsonl)
+### JSON Lines File: [data.jsonl](data.jsonl)
 A single line in JSON Lines format is a valid JSON object, surrounded by curly brackets {}.
 ```jsonl
 {"name": "John", "age": 30, "city": "New York"}
